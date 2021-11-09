@@ -21,7 +21,8 @@ class vip_go::plugins (
         command => 'git clone --recursive https://github.com/Automattic/vip-go-mu-plugins.git /vagrant/content/mu-plugins',
         path    => [ '/usr/bin/', '/bin' ],
         require => Package[ 'git-core' ],
-        timeout => 0
+        timeout => 0,
+        unless  => "test -d /vagrant/content/mu-plugins/000-debug",
     }
 
 }

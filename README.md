@@ -30,6 +30,7 @@ We only support PHP 7+ due to WP.com websites being upgraded to PHP 7 recently.
      - chassis/gmagick
      - chassis/pretty_permalinks
      - chassis/phpmyadmin
+     - chassis/vip_go
    permalink: '/%year%/%monthnum%/%day%/%postname%/'
    admin:
      user: yourusername
