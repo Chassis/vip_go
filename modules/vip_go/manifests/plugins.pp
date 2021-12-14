@@ -22,7 +22,7 @@ class vip_go::plugins (
         path    => [ '/usr/bin/', '/bin' ],
         require => Package[ 'git-core' ],
         timeout => 0,
-        unless  => "test -d /vagrant/content/mu-plugins/000-debug",
+        unless  => 'test -d /vagrant/content/mu-plugins/000-debug',
     }
 
 }
