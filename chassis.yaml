@@ -5,3 +5,10 @@
 #
 # Values: 2
 version: 2
+
+# Add the PHP packages that we know are on VIP Go.
+dependencies:
+  - chassis/intl
+  - chassis/imagick
+  - chassis/gmagick
+  - chassis/apcu

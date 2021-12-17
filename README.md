@@ -25,9 +25,6 @@ We only support PHP 7+ due to WP.com websites being upgraded to PHP 7 recently.
      - chassis/tester
      - chassis/npm
      - chassis/fish
-     - chassis/intl
-     - chassis/imagick
-     - chassis/gmagick
      - chassis/pretty_permalinks
      - chassis/phpmyadmin
      - chassis/vip_go
