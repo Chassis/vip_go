@@ -14,8 +14,7 @@ We only support PHP 7+ due to WP.com websites being upgraded to PHP 7 recently.
     ```
    hosts:
      - vip.local
-   php: 7.4
-   hostsupdater: yes
+   php: 8.0
    extensions:
      - chassis/xdebug
      - chassis/mailhog
