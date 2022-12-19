@@ -35,6 +35,19 @@ We only support PHP 7+ due to WP.com websites being upgraded to PHP 7 recently.
    synced_folders:
      logs/nginx: /var/log/nginx
      logs/php: /var/log/php
+   mysql:
+    package_name:
+        mariadb-server
+    mysqld:
+        log-error:
+            /var/log/mysql/mariadb.log
+        pid-file:
+            /var/run/mysqld/mysqld.pid
+        ssl-disable:
+            true
+    mysqld_safe:
+        log-error:
+            /var/log/mysql/mariadb.log
     ```
 1. Run `vagrant provision` and wait a few minutes as Chassis will clone the must use plugins for VIP.
 1. Go to your frontend URL: [http://vip.local](http://vip.local).
